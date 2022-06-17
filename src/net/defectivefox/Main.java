@@ -6,6 +6,26 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
+        /* EXERCISE 1 */
+
+        /*
+         * CREATE A SIMPLE TRIVIA GAME
+         *
+         * Define (at least) three questions with three answers.
+         * Prompt the User the type in their answer using the Scanner, you've seen in the output/input video
+         * Then use if/else statements to check if the answer from the user is correct! And output that they were.
+         * If they were wrong, tell the user and output the correct answer.
+         *
+         * BONUS: increment a points total each time the user is correct and at the end make a unique output for each
+         * score the user might have (0 to 3)
+         *
+         * IMPORTANT TIPS:
+         * 1. When reading in Strings from the user use scanner.next() (NOT scanner.nextLine())
+         * 2. When you have an answer and input that are both strings you will have to use:
+         *    userInput.equals(answer) instead of userInput == answer
+         */
+
+
         //Questions and answers
         String question1 = "What year was Minecraft released?";
         String answer1 = "2011";
