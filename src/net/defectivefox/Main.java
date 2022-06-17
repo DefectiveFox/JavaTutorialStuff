@@ -1,6 +1,6 @@
 package net.defectivefox;
 
-import java.util.Locale;
+
 import java.util.Scanner;
 
 public class Main {
@@ -62,23 +62,26 @@ public class Main {
         System.out.println("Answer all questions correctly.");
 
         //Question 1
+        System.out.println();
         System.out.println(question1);
         System.out.println("Your answer: ");
 
-        input = scanner.next().toLowerCase(Locale.ROOT);
+        input = scanner.next().toLowerCase();
 
         if(input.equals(answer1)){
             points++;
             System.out.println("Correct! +1 points! You have " + points + " points.");
         }else{
             System.out.println("Incorrect, the answer is: " + answer1);
+
         }
 
         //Question 2
+        System.out.println();
         System.out.println(question2);
         System.out.println("Your answer: ");
 
-        input = scanner.next().toLowerCase(Locale.ROOT);
+        input = scanner.next().toLowerCase();
 
         if(input.equals(answer2)){
             points++;
@@ -88,10 +91,11 @@ public class Main {
         }
 
         //Question 3
+        System.out.println();
         System.out.println(question3);
         System.out.println("Your answer: ");
 
-        input = scanner.next().toLowerCase(Locale.ROOT);
+        input = scanner.next().toLowerCase();
 
         if(input.equals(answer3)){
             points++;
@@ -101,10 +105,11 @@ public class Main {
         }
 
         //Question 4
+        System.out.println();
         System.out.println(question4);
         System.out.println("Your answer: ");
 
-        input = scanner.next().toLowerCase(Locale.ROOT);
+        input = scanner.next().toLowerCase();
 
         if(input.equals(answer4)){
             points++;
@@ -114,10 +119,11 @@ public class Main {
         }
 
         //Question 5
+        System.out.println();
         System.out.println(question5);
         System.out.println("Your answer: ");
 
-        input = scanner.next().toLowerCase(Locale.ROOT);
+        input = scanner.next().toLowerCase();
 
         if(input.equals(answer5)){
             points++;
