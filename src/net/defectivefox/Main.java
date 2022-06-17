@@ -106,7 +106,7 @@ public class Main {
             System.out.println("Incorrect, the answer is: " + answer5);
         }
 
-        System.out.println("");
+        System.out.println();
 
         switch(points){
             case 0: System.out.println("Game finished! You got "
