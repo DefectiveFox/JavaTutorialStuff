@@ -3,7 +3,7 @@ package net.defectivefox;
 
 import java.util.Scanner;
 
-public class Main {
+public class ExerciseOneTriviaGame {
     public static void main(String[] args){
 
         /* EXERCISE 1 */
